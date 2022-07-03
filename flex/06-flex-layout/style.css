@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 body {
   height: 100vh;
   margin: 0;
@@ -10,6 +11,7 @@ body {
 img {
   width: 600px;
 }
+
 
 button {
   font-family: Roboto, sans-serif;
@@ -25,3 +27,50 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* Solution */
+
+body{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height:100vh;
+  text-decoration: none;
+}
+
+
+.header,.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.content
+{
+ display: flex;
+ flex: 1;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.footer{
+  background-color: #eeeeee;
+
+}
+
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color:#666;
+  }
